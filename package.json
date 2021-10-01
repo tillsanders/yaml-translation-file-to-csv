@@ -1,0 +1,37 @@
+{
+  "name": "yaml-translation-file-to-csv",
+  "version": "1.0.0",
+  "description": "CLI tool to convert YAML translation files to CSV and back.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tillsanders/yaml-translation-file-to-csv.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "i18n",
+    "yaml",
+    "csv",
+    "translation",
+    "localization",
+    "convert"
+  ],
+  "author": "Till Sanders <mail@till-sanders.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tillsanders/yaml-translation-file-to-csv/issues"
+  },
+  "homepage": "https://github.com/tillsanders/yaml-translation-file-to-csv#readme",
+  "dependencies": {
+    "commander": "^8.2.0",
+    "csv-parse": "^4.16.3",
+    "csv-stringify": "^5.6.5",
+    "flat": "^5.0.2",
+    "js-yaml": "^4.1.0"
+  }
+}
